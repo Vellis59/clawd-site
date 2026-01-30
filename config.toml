@@ -1,0 +1,5 @@
+baseURL = "https://vellis59.github.io/"
+title = "Mon Site Hugo"
+theme = ""
+languageCode = "fr"
+enableRobotsTXT = true
