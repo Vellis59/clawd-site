@@ -22,11 +22,7 @@ jobs:
           hugo-version: "0.112.0"
 
       - name: Build
-        run: |
-          hugo version
-          hugo server --buildDrafts &
-          sleep 5
-          pkill hugo
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

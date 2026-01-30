@@ -1,5 +1,8 @@
-baseURL = "https://vellis59.github.io/"
+baseURL = "https://vellis59.github.io/clawd-site/"
 title = "Mon Site Hugo"
-theme = ""
 languageCode = "fr"
+theme = "bbc"
 enableRobotsTXT = true
+
+[params]
+  author = "Vellis59"
